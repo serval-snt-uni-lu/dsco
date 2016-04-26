@@ -1,7 +1,7 @@
 # DSCo: Domain Series Corpus
 
 DSCo is a language modeling based approach towards time series classification.
-This repository is to support our paper titled "DSCo: A Language Modeling Approach for Time Series Classification", which is submitted to MLDM.
+This repository is to support our paper titled "DSCo: A Language Modeling Approach for Time Series Classification", which was accepted at MLDM 2016. Please find the author preprint here: [http://orbilu.uni.lu/handle/10993/26733](http://orbilu.uni.lu/handle/10993/26733)
 
 ## How DSCo works
 
