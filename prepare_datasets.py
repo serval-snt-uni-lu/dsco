@@ -1,8 +1,4 @@
-
-# coding: utf-8
-
-# In[ ]:
-
+# Saxify datasets
 from scipy.io import loadmat
 import pandas as pd
 from saxpy import SAX
@@ -64,10 +60,12 @@ def saxify_folder(folder, alphabet=(3, 21)):
 
 def saxify_all(path, alphabet=(3, 21)):
     for folder in get_folders(path):
+        print folder
         saxify_folder(folder, alphabet)
     return
 
 
 if __name__ == '__main__':
+    print 'Converting .mat to .csv and Symbolizing real-valued data to strings'
     saxify_all('NewlyAddedDatasets')
-
+    print 'Done converting datasets'
