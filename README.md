@@ -17,8 +17,8 @@ Our paper introducing DSCo is titled "DSCo: A Language Modeling Approach for Tim
 
 * Convert real-valued time series into texts using SAX (both training and testing data)
 * Build per-class corpus from texts (model building)
-* Calculate fitness scores (using the text segmentation techniques)
-* Assign classification labels based on segmentation fitness scores
+* Calculate fitness scores (by calculate bigram probability product)
+* Assign classification labels based on fitness scores
 
 ## Code tutorial
 
