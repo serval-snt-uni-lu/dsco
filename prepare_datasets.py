@@ -10,8 +10,6 @@ import os
 def saxify_and_export(df, csvf, alphabet=5):
     nrows, ncols = df.shape
     sample_size = ncols - 1
-    if sample_size > 100:
-        sample_size = 100
     sax = SAX(sample_size, alphabet, 1e-6)
     cols = ['label', 'sax']
     nv = []
