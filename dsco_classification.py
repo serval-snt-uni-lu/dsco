@@ -88,7 +88,7 @@ class Segmentor:
 
 
 def calculate_scores(df, label, c1, c2, wl, a, results_dir):
-    sg = Segmentor(c1, c2, wl, N=a**wl)
+    sg = Segmentor(c1, c2, wl)
 
     nrows, ncols = df.shape
 
