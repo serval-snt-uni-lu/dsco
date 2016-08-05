@@ -2,12 +2,12 @@
 
 DSCo-NG is a language modeling based approach towards time series classification. It improves its predecessor in terms of both efficiency and accuracy.
 
-This repository is to support our paper titled "DSCo-NG: A Practical Language Modeling Approach for Time Series Classification", which was submitted to IDA 2016.
+This repository is to support our paper titled "DSCo-NG: A Practical Language Modeling Approach for Time Series Classification", which was accepted at IDA 2016. Please find the author preprint version of the paper here: [http://orbilu.uni.lu/handle/10993/27942](http://orbilu.uni.lu/handle/10993/27942)
 
 ## Previous version of DSCo
 DSCo v1.0 code is available at [https://github.com/serval-snt-uni-lu/dsco/tree/v1.0](https://github.com/serval-snt-uni-lu/dsco/tree/v1.0)
 
-Our paper introducing DSCo is titled "DSCo: A Language Modeling Approach for Time Series Classification", which was accepted at MLDM 2016. Please find the author preprint here: [http://orbilu.uni.lu/handle/10993/26733](http://orbilu.uni.lu/handle/10993/26733)
+Our paper introducing DSCo is titled "DSCo: A Language Modeling Approach for Time Series Classification", which was accepted at MLDM 2016. Please find the author preprint version of the paper here: [http://orbilu.uni.lu/handle/10993/26733](http://orbilu.uni.lu/handle/10993/26733)
 
 ## How DSCo-NG works
 
